@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mendotory</h3>
+
+<form>
+
+
+    Full name*: <br> <input type="text" placeholder="FirstName LastName" required>
+    <br>
+    Email adress*: <br> <input type="email"  placeholder="EMAIL_ADRESS" required>
+    <br>
+     Select Tour Package*: <br> <select name="Select Tour Package*:">
+      <option value="goa">Goa</option>
+      <option value="andhra pradesh">Andhra Pradesh</option>
+      <option value="haryana">Haryana</option>
+      <option value="assam">Assam</option>
+
+    </select>
+  <br>
+    Arrival date*: <br> <input type="text"  placeholder="m/d/y" pattern="[0-9]{8}" />
+  <br>
+    Number of persons*: <br> <input type="number"  placeholder="UNKNOWN_TYPE" pattern="{1-9}" required>
+  <br>
+    What would you want to avail?* <br> 
+  Boarding <input type="checkbox" name="avail" value="Boarding" />
+  <br>
+  Fooding <input type="checkbox" name="avail" value="Fooding" />
+  <br>
+  Sight seeing<input type="checkbox" name="avail" value="Sight seeing" />
+  <br>
+    Discout Coupon code: <br> <input type="text" placeholder="UNKNOWN_TYPE" pattern="[a-zA-Z]{6}">
+  <br>
+    Terms and conditions* <br> <input type="radio" name="option" value="I agree" required/> I agree
+  <input type="radio" name="option" value="I disagree" required/> I disagree
+  <br>
+    <input type="submit" name="complete" value="complete reservation"/>
+
+</form>
+
+
+</body>
+</html>
+
